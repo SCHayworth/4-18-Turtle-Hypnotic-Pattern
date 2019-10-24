@@ -23,7 +23,7 @@ turtle.left(90)
 for x in range(ITERATIONS):
     turtle.forward(line_length)     # Draws a line equal to the line_length value
     turtle.left(90)                 # Rotates the turtle left 90 degrees
-    line_length *= 2                # Doubles the length of the next line
+    line_length +=5                 # Adds 5 pixels to line_length
 
 # Keeps the turtle display window open if program is not run in IDLE
 turtle.done()
