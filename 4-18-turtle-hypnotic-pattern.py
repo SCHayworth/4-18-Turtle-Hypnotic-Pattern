@@ -9,15 +9,18 @@
 # Import the turtle graphics library
 import turtle
 
-# Initialize ITERATIONS constant at 30
-# Sets the mumber of times the loop should execute.
-ITERATIONS = 30
+# Initialize named constants
+ITERATIONS = 60         # Number of times the loop should run
+ANIMATION_SPEED = 0     # How quickly the turtle draws
 
 # Set the length of the first line to 5 pixels
 line_length = 5
 
 # Set the initial direction of the turtle to up
 turtle.left(90)
+
+# Set the animation speed of the turtle
+turtle.speed(ANIMATION_SPEED)
 
 # Draw the pattern using a loop
 for x in range(ITERATIONS):
